@@ -4,14 +4,14 @@ const Card = ({ fullname, title, profile, coverimg, likesCount, postCount, viewC
   return (
     <div className="bg-white text-black w-[20%] rounded-lg overflow-hidden ">
       
-      {/* Cover Image */}
+      
       <img
         src={coverimg}
         alt="cover"
         className="h-32 w-full object-cover"
       />
 
-      {/* Profile + Info */}
+     
       <div className="p-4 flex gap-4">
         
         <img
